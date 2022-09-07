@@ -1,0 +1,34 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Feb 20 19:45:45 2020
+| Host         : vlsi50 running 64-bit CentOS Linux release 7.7.1908 (Core)
+| Command      : report_methodology -file FA_64bit_RCA_methodology_drc_routed.rpt -pb FA_64bit_RCA_methodology_drc_routed.pb -rpx FA_64bit_RCA_methodology_drc_routed.rpx
+| Design       : FA_64bit_RCA
+| Device       : xc7vx485tffg1157-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 0
++------+----------+-------------+------------+
+| Rule | Severity | Description | Violations |
++------+----------+-------------+------------+
++------+----------+-------------+------------+
+
+2. REPORT DETAILS
+-----------------
+

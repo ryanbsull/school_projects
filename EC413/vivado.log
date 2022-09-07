@@ -1,0 +1,115 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Feb 28 14:55:19 2020
+# Process ID: 21363
+# Current directory: /ad/eng/users/r/y/ryanbs/Desktop/EC413
+# Command line: vivado
+# Log file: /ad/eng/users/r/y/ryanbs/Desktop/EC413/vivado.log
+# Journal file: /ad/eng/users/r/y/ryanbs/Desktop/EC413/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/ad/eng/support/software/linux/opt/xilinx/Vivado/2019.1/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:49 . Memory (MB): peak = 6587.242 ; gain = 145.766 ; free physical = 9389 ; free virtual = 24179
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_ALU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_ALU_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/ALU_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/AND_p.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_p
+INFO: [VRFC 10-2263] Analyzing Verilog file "/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/AND_str.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_str
+INFO: [VRFC 10-2263] Analyzing Verilog file "/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/FA_str.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA_str
+INFO: [VRFC 10-2263] Analyzing Verilog file "/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/FS_p.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS_p
+INFO: [VRFC 10-2263] Analyzing Verilog file "/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/NOT_p.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NOT_p
+INFO: [VRFC 10-2263] Analyzing Verilog file "/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/NOT_str.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NOT_str
+INFO: [VRFC 10-2263] Analyzing Verilog file "/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/OR_p.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_p
+INFO: [VRFC 10-2263] Analyzing Verilog file "/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/OR_str.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_str
+INFO: [VRFC 10-2263] Analyzing Verilog file "/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/REG_p.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_p
+INFO: [VRFC 10-2263] Analyzing Verilog file "/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/Verification.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_verification
+INFO: [VRFC 10-2263] Analyzing Verilog file "/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/dff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff
+INFO: [VRFC 10-2263] Analyzing Verilog file "/ad/eng/users/r/y/ryanbs/Desktop/EC413/lab5/Simulation/tb_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_ALU
+run_program: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 6621.641 ; gain = 0.000 ; free physical = 9392 ; free virtual = 24182
+INFO: [USF-XSim-69] 'compile' step finished in '8' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.sim/sim_1/behav/xsim'
+xelab -wto 1a90a0d32f2541b680a84e73545d498a --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_ALU_behav xil_defaultlib.tb_ALU xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /ad/eng/support/software/linux/opt/xilinx/Vivado/2019.1/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto 1a90a0d32f2541b680a84e73545d498a --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_ALU_behav xil_defaultlib.tb_ALU xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'c_in' [/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/FS_p.v:41]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'c_in' [/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/FS_p.v:48]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.OR_str
+Compiling module xil_defaultlib.OR_p_default
+Compiling module xil_defaultlib.AND_str
+Compiling module xil_defaultlib.AND_p_default
+Compiling module xil_defaultlib.NOT_str
+Compiling module xil_defaultlib.NOT_p_default
+Compiling module xil_defaultlib.FA_str
+Compiling module xil_defaultlib.FA_default
+Compiling module xil_defaultlib.FS_p
+Compiling module xil_defaultlib.dff
+Compiling module xil_defaultlib.REG_p_default
+Compiling module xil_defaultlib.ALU_32bit
+Compiling module xil_defaultlib.ALU_verification
+Compiling module xil_defaultlib.tb_ALU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_ALU_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_ALU_behav -key {Behavioral:sim_1:Functional:tb_ALU} -tclbatch {tb_ALU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source tb_ALU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_ALU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 6723.668 ; gain = 102.027 ; free physical = 9350 ; free virtual = 24139
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Feb 28 15:11:45 2020...

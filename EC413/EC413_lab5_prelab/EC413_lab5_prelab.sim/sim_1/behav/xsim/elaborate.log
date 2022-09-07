@@ -1,0 +1,21 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /ad/eng/support/software/linux/opt/xilinx/Vivado/2019.1/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto 53bcada6026e4cfa80820484395575fa --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 9 for port 'q' [/ad/eng/users/r/y/ryanbs/Desktop/EC413_lab5_prelab/EC413_lab5_prelab.srcs/sim_1/new/top_tb.v:40]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 9 for port 'q' [/ad/eng/users/r/y/ryanbs/Desktop/EC413_lab5_prelab/EC413_lab5_prelab.srcs/sim_1/new/top_tb.v:48]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.not_p(N=9)
+Compiling module xil_defaultlib.FA_str
+Compiling module xil_defaultlib.FA(N=8)
+Compiling module xil_defaultlib.dff
+Compiling module xil_defaultlib.register(N=9)
+Compiling module xil_defaultlib.top(N=8)
+Compiling module xil_defaultlib.Verify(N=8)
+Compiling module xil_defaultlib.top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_tb_behav

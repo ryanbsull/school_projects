@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../EC413_lab5_prelab.srcs/sources_1/new/FA.v" \
+"../../../../../EC413/lab5_prelab/FA_str.v" \
+"../../../../EC413_lab5_prelab.srcs/sources_1/new/Verify.v" \
+"../../../../../EC413/lab5_prelab/dff.v" \
+"../../../../EC413_lab5_prelab.srcs/sources_1/new/not_p.v" \
+"../../../../EC413_lab5_prelab.srcs/sources_1/new/register.v" \
+"../../../../EC413_lab5_prelab.srcs/sources_1/new/top.v" \
+"../../../../EC413_lab5_prelab.srcs/sim_1/new/top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

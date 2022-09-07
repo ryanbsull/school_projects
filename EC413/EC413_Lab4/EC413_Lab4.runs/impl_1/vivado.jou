@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Feb 20 19:43:59 2020
+# Process ID: 13677
+# Current directory: /ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab4/EC413_Lab4.runs/impl_1
+# Command line: vivado -log FA_64bit_RCA.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source FA_64bit_RCA.tcl -notrace
+# Log file: /ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab4/EC413_Lab4.runs/impl_1/FA_64bit_RCA.vdi
+# Journal file: /ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab4/EC413_Lab4.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source FA_64bit_RCA.tcl -notrace

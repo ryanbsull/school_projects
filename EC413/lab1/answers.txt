@@ -1,0 +1,10 @@
+Ryan Sullivan
+U73687595
+EC413 Lab1 Answers
+
+1) When comparing unsigned integers with signed integers, even though they technically hold the same value (ex. 0xFF), the two values are interpreted as being different.
+2) schar1 + shcar2 = -3, which is expected as their values are -1 and -2 respectively.
+3) uchar1 + uchar2 = 509, which is technically expected as they are both 255 and 254 respectively but this is outside their possible value ranges meaning that the comupter must have actually given a buffer allowance of data to handle these calculations.
+4) schar1 + uchar1 = 254, which isn't the sum of their true values (0xFF) but the computer must have converted uchar1 to a signed variable so that the calculation would produce an arithmetically correct outcome.
+5) The reason that the difference between ip and ip + 1 is not 1 is because when the computer processes ip + 1 it reads it as the next location in memory rather than a single integer value up.
+6) If you add 60 to the %0 at the end of the string you get the > character.

@@ -1,0 +1,17 @@
+0.6
+2019.1
+May 24 2019
+14:51:52
+/ad/eng/users/r/y/ryanbs/Desktop/EC413/lab4/FA_32bit.v,1582244252,verilog,,/ad/eng/users/r/y/ryanbs/Desktop/EC413/lab4/FA_32bit_D.v,,FA_32bit,,,,,,,,
+/ad/eng/users/r/y/ryanbs/Desktop/EC413/lab4/FA_32bit_D.v,1582310958,verilog,,/ad/eng/users/r/y/ryanbs/Desktop/EC413/lab4/FA_4bit.v,,FA_32bit_D,,,,,,,,
+/ad/eng/users/r/y/ryanbs/Desktop/EC413/lab4/FA_4bit.v,1582244376,verilog,,/ad/eng/users/r/y/ryanbs/Desktop/EC413/lab4/FA_4bit_D.v,,FA_4bit,,,,,,,,
+/ad/eng/users/r/y/ryanbs/Desktop/EC413/lab4/FA_4bit_D.v,1582310895,verilog,,/ad/eng/users/r/y/ryanbs/Desktop/EC413/lab4/FA_64bit_CSA.v,,FA_4bit_D,,,,,,,,
+/ad/eng/users/r/y/ryanbs/Desktop/EC413/lab4/FA_64bit_CSA.v,1582307132,verilog,,/ad/eng/users/r/y/ryanbs/Desktop/EC413/lab4/FA_64bit_CSA_D.v,,FA_64bit_CSA,,,,,,,,
+/ad/eng/users/r/y/ryanbs/Desktop/EC413/lab4/FA_64bit_CSA_D.v,1582311002,verilog,,/ad/eng/users/r/y/ryanbs/Desktop/EC413/lab4/FA_64bit_RCA.v,,FA_64bit_CSA_D,,,,,,,,
+/ad/eng/users/r/y/ryanbs/Desktop/EC413/lab4/FA_64bit_RCA.v,1582244130,verilog,,/ad/eng/users/r/y/ryanbs/Desktop/EC413/lab4/FA_64bit_RCA_D.v,,FA_64bit_RCA,,,,,,,,
+/ad/eng/users/r/y/ryanbs/Desktop/EC413/lab4/FA_64bit_RCA_D.v,1582311038,verilog,,/ad/eng/users/r/y/ryanbs/Desktop/EC413/lab4/FA_str.v,,FA_64bit_RCA_D,,,,,,,,
+/ad/eng/users/r/y/ryanbs/Desktop/EC413/lab4/FA_64bit_tb.v,1582320562,verilog,,,,FA_64bit_tb,,,,,,,,
+/ad/eng/users/r/y/ryanbs/Desktop/EC413/lab4/FA_str.v,1582309933,verilog,,/ad/eng/users/r/y/ryanbs/Desktop/EC413/lab4/FA_str_D.v,,FA_str,,,,,,,,
+/ad/eng/users/r/y/ryanbs/Desktop/EC413/lab4/FA_str_D.v,1582310813,verilog,,/ad/eng/users/r/y/ryanbs/Desktop/EC413/lab4/Verify_64bit.v,,FA_str_D,,,,,,,,
+/ad/eng/users/r/y/ryanbs/Desktop/EC413/lab4/Verify_64bit.v,1582244533,verilog,,/ad/eng/users/r/y/ryanbs/Desktop/EC413/lab4/FA_64bit_tb.v,,Verify_64bit,,,,,,,,
+/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab4/EC413_Lab4.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,

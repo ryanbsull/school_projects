@@ -1,0 +1,22 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../EC413_Lab5.srcs/sources_1/new/ALU_32bit.v" \
+"../../../../EC413_Lab5.srcs/sources_1/new/AND_p.v" \
+"../../../../EC413_Lab5.srcs/sources_1/new/AND_str.v" \
+"../../../../EC413_Lab5.srcs/sources_1/new/FA.v" \
+"../../../../EC413_Lab5.srcs/sources_1/new/FA_str.v" \
+"../../../../EC413_Lab5.srcs/sources_1/new/FS_p.v" \
+"../../../../EC413_Lab5.srcs/sources_1/new/NOT_p.v" \
+"../../../../EC413_Lab5.srcs/sources_1/new/NOT_str.v" \
+"../../../../EC413_Lab5.srcs/sources_1/new/OR_p.v" \
+"../../../../EC413_Lab5.srcs/sources_1/new/OR_str.v" \
+"../../../../EC413_Lab5.srcs/sources_1/new/REG_p.v" \
+"../../../../EC413_Lab5.srcs/sources_1/new/Verification.v" \
+"../../../../EC413_Lab5.srcs/sources_1/new/dff.v" \
+"../../../../../EC413/lab5/Simulation/tb_ALU.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

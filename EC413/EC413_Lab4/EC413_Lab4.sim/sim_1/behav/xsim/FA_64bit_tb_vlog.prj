@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../EC413/lab4/FA_32bit.v" \
+"../../../../../EC413/lab4/FA_32bit_D.v" \
+"../../../../../EC413/lab4/FA_4bit.v" \
+"../../../../../EC413/lab4/FA_4bit_D.v" \
+"../../../../../EC413/lab4/FA_64bit_CSA.v" \
+"../../../../../EC413/lab4/FA_64bit_CSA_D.v" \
+"../../../../../EC413/lab4/FA_64bit_RCA.v" \
+"../../../../../EC413/lab4/FA_64bit_RCA_D.v" \
+"../../../../../EC413/lab4/FA_str.v" \
+"../../../../../EC413/lab4/FA_str_D.v" \
+"../../../../../EC413/lab4/Verify_64bit.v" \
+"../../../../../EC413/lab4/FA_64bit_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

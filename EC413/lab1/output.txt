@@ -1,0 +1,103 @@
+
+
+ PART 1 ---------
+
+ Hello Ryan Sullivan! 
+
+
+ PART 2 ----------
+
+ size of data type int = 4 
+ size of data type double = 8 
+ size of data type char = 1 
+ size of data type long = 8 
+ size of data type short = 2 
+
+ PART 3 ----------
+
+ uchar1 = 255 
+ schar1 = -1 
+ uchar2 = 254 
+ schar2 = -2 
+uchar1 > schar1
+uchar2 > shcar2
+Are schar1 and uchar1 equal? (1 = yes / 0 = no): 0
+Are schar2 and uchar2 equal? (1 = yes / 0 = no): 0
+schar1 + schar2 = -3 
+uchar1 + uchar2 = 509 
+shcar1 + uchar1 = 254 
+
+ PART 4 ----------
+
+Size of internal Boolean type : 4
+x & y = 0
+x && y = 1
+~x = -2 
+~y = -3
+!x = 0 
+!y = 0
+
+ PART 5 ----------
+
+ shift_char << 1 = 30
+ shift_char >> 2 = 3
+ shift_char << 2 = 60
+ shift_char >> 1 = 7
+ shift_char << 5 = 480
+ shift_char << 8 = 3840
+
+ PART 6 ----------
+
+start 10 10 20 10 20 50 10 
+Size of integer pointer: 8
+ip = 66e95d18
+ip + 1 = 66e95d1c
+
+ PART 7 ----------
+
+a = {0,10,20,30,40,50,60,70,80,90}
+b = {90, 80, 70, 60, 50, 40, 30, 20, 10, 0}
+c = {90, 80, 70, 60, 50, 40, 30, 20, 10, 0}
+
+ PART 8 ----------
+
+ HAL 
+
+H = 72
+A = 65
+L = 76
+H + 1 = I
+A + 1 = B
+L + 1 = M
+
+ HAL<
+
+ PART 9 ----------
+
+FIRST LOOP:
+
+Address referenced: 66e95ce0
+Address referenced: 66e95ce4
+Address referenced: 66e95ce8
+Address referenced: 66e95cec
+Address referenced: 66e95cf0
+Address referenced: 66e95cf4
+Address referenced: 66e95cf8
+Address referenced: 66e95cfc
+Address referenced: 66e95d00
+Address referenced: 66e95d04
+
+SECOND LOOP:
+
+Address referenced: 66e95ce0
+Address referenced: 66e95ce4
+Address referenced: 66e95ce8
+Address referenced: 66e95cec
+Address referenced: 66e95cf0
+Address referenced: 66e95cf4
+Address referenced: 66e95cf8
+Address referenced: 66e95cfc
+Address referenced: 66e95d00
+Address referenced: 66e95d04
+
+ ALL DONE

@@ -1,0 +1,190 @@
+1a. 
+	model name      : Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz
+	cpu MHz         : 799.987
+	cpu cores       : 8
+
+1b.
+
+2a.
+
+One determines accuracy by how close the observed measurement is to the actual value of what is being measured. 
+Without the use of a lab computer to determine the time elapsed, I can, at best, determine a time measurement with an accuracy of about 1 second.
+
+2b.
+
+2c.
+
+Changes made:
+
+GET_TOD_TICS 1000000 	--> 	PLACEHOLDER
+CLK_RATE 2.0e9 		--> 	PLACEHOLDER
+GET_SECONDS_TICS 100 	-->	PLACEHOLDER
+
+2d.
+
+*see code*
+
+2e.
+
+*see code*
+
+2f.
+
+bash-4.2$ ./test_clock_gettime
+Sum computed: 2135981408 that took 1 sec and 1823347 nsec (1.001823347 sec)
+bash-4.2$ ./test_clock_gettime
+Sum computed: 2135981408 that took 1 sec and 4533299 nsec (1.004533299 sec)
+bash-4.2$ ./test_clock_gettime
+Sum computed: 2135981408 that took 1 sec and 2695831 nsec (1.002695831 sec)
+bash-4.2$ ./test_clock_gettime
+Sum computed: 2135981408 that took 1 sec and 273792 nsec (1.000273792 sec)
+bash-4.2$ ./test_clock_gettime
+Sum computed: 2135981408 that took 1 sec and 822276 nsec (1.000822276 sec)
+
+3.
+
+*see plot*
+
+4a.
+
+*read chapter specified*
+
+4b.
+
+*see code*
+
+4c.
+
+The best way to get rid of anomalous results is to run the test multiple times at each array size and then average over the total runs to lessen the impact of strange results.
+The larger the amount of runs, the less these effect these strange results will have on the final outcome of the graph.
+
+4d.
+
+Testing psum1: 
+
+For 1000000 elements: 
+	psum1 avg time over 10 runs: 
+		0 sec and 1998811 nsec (0.001998811 sec)
+For 2000000 elements: 
+	psum1 avg time over 10 runs: 
+		0 sec and 5912177 nsec (0.005912177 sec)
+For 3000000 elements: 
+	psum1 avg time over 10 runs: 
+		0 sec and 11734321 nsec (0.011734321 sec)
+For 4000000 elements: 
+	psum1 avg time over 10 runs: 
+		0 sec and 19515140 nsec (0.019515140 sec)
+For 5000000 elements: 
+	psum1 avg time over 10 runs: 
+		0 sec and 29231117 nsec (0.029231117 sec)
+For 6000000 elements: 
+	psum1 avg time over 10 runs: 
+		0 sec and 40912532 nsec (0.040912532 sec)
+For 7000000 elements: 
+	psum1 avg time over 10 runs: 
+		0 sec and 54535155 nsec (0.054535155 sec)
+For 8000000 elements: 
+	psum1 avg time over 10 runs: 
+		0 sec and 70084021 nsec (0.070084021 sec)
+For 9000000 elements: 
+	psum1 avg time over 10 runs: 
+		0 sec and 87562273 nsec (0.087562273 sec)
+
+
+Testing psum2: 
+
+For 1000000 elements: 
+	psum2 avg time over 10 runs: 
+		0 sec and 1403973 nsec (0.001403973 sec)
+For 2000000 elements: 
+	psum2 avg time over 10 runs: 
+		0 sec and 4233556 nsec (0.004233556 sec)
+For 3000000 elements: 
+	psum2 avg time over 10 runs: 
+		0 sec and 8497066 nsec (0.008497066 sec)
+For 4000000 elements: 
+	psum2 avg time over 10 runs: 
+		0 sec and 14185962 nsec (0.014185962 sec)
+For 5000000 elements: 
+	psum2 avg time over 10 runs: 
+		0 sec and 21333100 nsec (0.021333100 sec)
+For 6000000 elements: 
+	psum2 avg time over 10 runs: 
+		0 sec and 29902880 nsec (0.029902880 sec)
+For 7000000 elements: 
+	psum2 avg time over 10 runs: 
+		0 sec and 39907883 nsec (0.039907883 sec)
+For 8000000 elements: 
+	psum2 avg time over 10 runs: 
+		0 sec and 51364934 nsec (0.051364934 sec)
+For 9000000 elements: 
+	psum2 avg time over 10 runs: 
+		0 sec and 64218918 nsec (0.064218918 sec)
+
+5a.
+
+ Starting a loop 
+
+ done 
+
+real	0m0.152s
+user	0m0.148s
+sys	0m0.001s
+
+5b.
+
+
+ Starting a loop 
+
+ done 
+
+real	0m0.042s
+user	0m0.026s
+sys	0m0.002s
+
+5c.
+
+*no response needed*
+
+5d.
+
+The overall size of the code has decreased and now rather than using jle (jump if less than or equal to), the program uses jne (jump if not equal); 
+This change of operation is less computationally intensive as it is only checking for equality to zero rather than if the register examined is less 
+than or equal to zero. Also the optimized version does not even calculate the value of steps or i as neither are used later, but rather only runs through 
+the loop.
+
+5e.
+
+
+ Starting a loop 
+
+ Steps: 300000003 
+
+ done 
+
+real	0m0.031s
+user	0m0.025s
+sys	0m0.003s
+
+Now that the variable steps is actually needed later in the program, the variable value is calculated, but rather than doing so directly by looping over the
+addition operations, the program instead calculates the value in compilation to be 300000003 and places it into the output string directly before printing.
+
+6a.
+
+6b.
+
+6c.
+
+6d.
+
+6e.
+
+6f.
+
+7a.
+
+7b.
+
+7c.
+
+7d.

@@ -1,0 +1,21 @@
+0.6
+2019.1
+May 24 2019
+14:51:52
+,,,,,,tb_ALU,,,,,,,,
+/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sim_1/new/FS_str_tb.v,1582854280,verilog,,,,FS_str_tb,,,,,,,,
+/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/ALU_32bit.v,1582913453,verilog,,/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/AND_p.v,,ALU_32bit,,,,,,,,
+/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/AND_p.v,1582913124,verilog,,/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/AND_str.v,,AND_p,,,,,,,,
+/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/AND_str.v,1582843138,verilog,,/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/FA.v,,AND_str,,,,,,,,
+/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/FA.v,1582845007,verilog,,/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/FA_str.v,,FA,,,,,,,,
+/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/FA_str.v,1582849780,verilog,,/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/FS_p.v,,FA_str,,,,,,,,
+/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/FS_p.v,1582910520,verilog,,/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/NOT_p.v,,FS_p,,,,,,,,
+/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/FS_tb.v,1582910421,verilog,,,,FS_tb,,,,,,,,
+/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/NOT_p.v,1582844244,verilog,,/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/NOT_str.v,,NOT_p,,,,,,,,
+/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/NOT_str.v,1582849790,verilog,,/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/OR_p.v,,NOT_str,,,,,,,,
+/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/OR_p.v,1582844432,verilog,,/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/OR_str.v,,OR_p,,,,,,,,
+/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/OR_str.v,1582843198,verilog,,/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/REG_p.v,,OR_str,,,,,,,,
+/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/REG_p.v,1582847651,verilog,,/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/Verification.v,,REG_p,,,,,,,,
+/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/Verification.v,1582849825,verilog,,/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/dff.v,,ALU_verification,,,,,,,,
+/ad/eng/users/r/y/ryanbs/Desktop/EC413_Lab5/EC413_Lab5.srcs/sources_1/new/dff.v,1582845556,verilog,,/ad/eng/users/r/y/ryanbs/Desktop/EC413/lab5/Simulation/tb_ALU.v,,dff,,,,,,,,
